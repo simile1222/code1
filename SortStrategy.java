@@ -1,5 +1,3 @@
-package com.example.strategy;
-
 public interface SortStrategy {
     /**
      * numbers 배열을 "제자리(in-place)" 정렬하세요.

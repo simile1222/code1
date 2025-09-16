@@ -1,5 +1,3 @@
-package com.example.strategy;
-
 public class User {
     private final String name;
     private final boolean subscriber; // 구독자 여부

@@ -1,5 +1,3 @@
-package com.example.strategy;
-
 public class StrategyFactory {
 
     private StrategyFactory() {}

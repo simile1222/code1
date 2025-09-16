@@ -1,5 +1,3 @@
-package com.example.strategy;
-
 public class QuickSort implements SortStrategy {
     @Override
     public void sort(int[] numbers) {

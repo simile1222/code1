@@ -1,5 +1,3 @@
-package com.example.strategy;
-
 import java.util.Arrays;
 
 public class StrategyPatternApp {

@@ -1,4 +1,4 @@
-# 디자인 패턴 1분반 전략패턴 실습 과제
+# 디자인 패턴 전략패턴 실습 과제
 #기본
 1. BubbleSort.java 완성
 2. QuickSort.java 완성

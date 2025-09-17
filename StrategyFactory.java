@@ -1,6 +1,6 @@
 public class StrategyFactory {
 
-    private StrategyFactory() {}
+    public StrategyFactory() {}
 
     /**
      * 요구사항:
@@ -10,6 +10,10 @@ public class StrategyFactory {
     public static SortStrategy fromUser(User user) {
         // TODO: 위 정책에 따라 적절한 전략 인스턴스 반환
         // 예: return user.isSubscriber() ? new QuickSort() : new BubbleSort();
-        throw new UnsupportedOperationException("TODO: StrategyFactory.fromUser 구현");
+        if(user.isSubscriber()){
+            return new QuickSort();
+        }else{
+            return new BubbleSort();
+        }
     }
 }

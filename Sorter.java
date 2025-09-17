@@ -15,7 +15,8 @@ public class Sorter {
     public void chooseStrategy(User user) {
         // TODO: StrategyFactory 사용해서 전략 주입
         // this.strategy = StrategyFactory.fromUser(user);
-        throw new UnsupportedOperationException("TODO: Sorter.chooseStrategy 구현");
+        StrategyFactory strategyFactory = new StrategyFactory();
+        strategy = strategyFactory.fromUser(user);
     }
 
     public int[] sortArray(int[] numbers) {
